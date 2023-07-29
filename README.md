@@ -1,4 +1,4 @@
-# Object-Detection
+# Object Detection
 
 ### INTRODUCTION
 
@@ -25,17 +25,17 @@
 
 <p>1)	Firstly, Images are gathered from Open Images dataset - 513 images of plastic bags, 800 images of bottles, and 800 images of tin cans (Note- Images are in jpg format only).</p>
 
-<img src="https://github.com/Prakhar-Verma39/Object-Detection/assets/103757447/28cb2ed4-b9eb-4496-b992-e499a9f31c1e"/>
+<img src="https://github.com/Prakhar-Verma39/Object-Detection/assets/103757447/28cb2ed4-b9eb-4496-b992-e499a9f31c1e" height="40%" width="60%"/>
 <p><b>Figure 1.</b> Images Collected.</p>
 
 <p>2)	Preprocessing / Annotation is performed. A text file is generated for each image. These files contain the location(s) of object instances in the images together with their class identities. Files contain this information in YOLO format (class id, object centers    (x, y), object width, and object height). These numbers are normalized by the real width and height of the images respectively. Text files are generated using a tool – labelImg.</p>
 
-<img src="https://github.com/Prakhar-Verma39/Object-Detection/assets/103757447/85a787f1-9408-4ac8-a0e7-723d48fb9096"/>
+<img src="https://github.com/Prakhar-Verma39/Object-Detection/assets/103757447/85a787f1-9408-4ac8-a0e7-723d48fb9096" height="40%" width="60%"/>
 <p><b>Figure 2.</b> Annotated Images</p>
 
 <p>3)	Training is done on Google’s colab. Online GPU is utilized to speed up the process. Further, the advantage of pre-trained weights is taken and weights are downloaded and tested after every 2000 iterations. Overall, 6000 iterations are performed i.e., approximately 9 hours of training. The darknet framework is utilized for training purposes which is created also created by one of the contributors to the YOLO algorithm – Joseph Redmon. This framework serves as a backbone or feature extractor. Images are split into a 7:3 ratio for training and validation.</p>
 
-<img arc="https://github.com/Prakhar-Verma39/Object-Detection/assets/103757447/dc576e6c-9316-4525-9e9e-83b0c202ca67"/>
+<img arc="https://github.com/Prakhar-Verma39/Object-Detection/assets/103757447/dc576e6c-9316-4525-9e9e-83b0c202ca67" height="40%" width="60%"/>
 <p><b>Figure 3.</b> Training</p>
 
 <p>4)	Finally, the model is evaluated by using charts provided by the Darknet framework and tested over some real-time images/feed from the webcam.</p>
@@ -48,7 +48,7 @@
 
 <p>Secondly, YOLOv3 uses binary cross-entropy loss for each label and computes total loss to plot a chart of mAP and loss values for each iteration.</p>
 
-<img src="https://github.com/Prakhar-Verma39/Object-Detection/assets/103757447/9ead8077-eb81-478c-8936-a2ab2439a9d7"/>
+<img src="https://github.com/Prakhar-Verma39/Object-Detection/assets/103757447/9ead8077-eb81-478c-8936-a2ab2439a9d7" height="60%" width="40%"/>
 
 <p><b>Figure 4.</b> Chart showing loss and mAP after 3000 iterations.</p>
 
