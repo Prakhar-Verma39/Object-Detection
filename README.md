@@ -71,3 +71,13 @@
 <img src="https://github.com/Prakhar-Verma39/Object-Detection/assets/103757447/f046456c-b9b5-48ec-9b52-23cd61c98497" height="40%" width="30%"/>
 <img src="https://github.com/Prakhar-Verma39/Object-Detection/assets/103757447/078e22ba-4c12-4b84-80a2-83a719b7e125" height="40%" width="30%"/>
 <p text-align="center;"><b>Figure 8.</b> Object detected in real-time (False Positives).</p>
+
+### CONCLUSION & FUTURE SCOPE
+
+<p>By implementing the YOLO algorithm, an efficient object detector is developed which can detect plastic bags, bottles, and tin cans. This detection is very fast, and detections are made in almost real time. As soon as any object of concern is detected, a short clip is recorded and an alert sound is generated the model detects the object for some fixed amount of time. This model can be used for implementing tighter bans or surveillance.</p>
+<p>Yolo’s architecture can be trained on multiple objects; thus, it can be scaled easily without hurting any other elements. Any new set of items/objects can be detected simply by using newly trained weights. However, receptive field and feature resolution will remain the factors of utmost concern.</p>
+<p>Increasing the size of a dataset will increase the detection accuracy, but for scale, robust detection data augmentation needs to be implemented.</p>
+<p>Transfer learning is used to improve generalization ability and training speed but in some cases, a divergence between the original MS COCO dataset and the dataset used, and domain mismatch may increase false positive or true negative results.</p>
+<p>Fixed-size anchor boxes are scale variants leading to misses in case of unexpected changes.</p>    
+<p>To address the problem of waste management and effective sorting of different items from a pool of waste, this detector will be implemented on a robotic hand that can work 24x7 to sort waste into different categories.</p>
+<p>Efforts will be made retrospectively toward improving the training datasets' quality and quantity. Use of methods like data augmentation, random initialization, and different image input sizes (320x320, 608x608, etc.).</p>
