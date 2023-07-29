@@ -1,6 +1,6 @@
 # Object-Detection
 
-<img src="https://github.com/Prakhar-Verma39/Object-Detection/assets/103757447/e96afdf1-a479-4e60-897c-4b232dbbc771"/>
+<img src="https://github.com/Prakhar-Verma39/Object-Detection/assets/103757447/e96afdf1-a479-4e60-897c-4b232dbbc771" height="40%" width="30%"/>
 <img src="https://github.com/Prakhar-Verma39/Object-Detection/assets/103757447/a01e06fb-3ff2-446d-bfd8-36afc3e1b1d5"/>
 <img src="https://github.com/Prakhar-Verma39/Object-Detection/assets/103757447/e84462d0-fa1d-40cf-85c2-05f6b396e848"/>
 <img src="https://github.com/Prakhar-Verma39/Object-Detection/assets/103757447/a44c84e6-2f10-4938-a128-0bd4d8a9189e"/>
